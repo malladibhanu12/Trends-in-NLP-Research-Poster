@@ -1,0 +1,101 @@
+id,text,gold_label,category,compound_score,predicted_label
+1,@UnMondeHistoire chalut :),Positive,clear,0.4588,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,0.7781,Positive
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,0.0,Positive
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,0.6249,Positive
+5,"I can't complain, this exceeded expectations.",Positive,ambiguous,0.2755,Positive
+6,"Nice, another 'brief' meeting that ran two hours over.",Negative,ambiguous,0.4215,Positive
+7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,Negative,clear,0.6002,Positive
+8,"Oh sure, because customer support has been SO responsive.",Negative,ambiguous,0.8465,Positive
+9,@Rinerh -hugs- I really wish I could love :( I miss you.,Negative,clear,0.7841,Positive
+10,I don't think this could have gone any better.,Positive,ambiguous,0.4404,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,0.9636,Positive
+12,"I wasn't happy before, and this didn't help at all.",Negative,ambiguous,-0.6435,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,-0.8298,Negative
+14,:( :( :( when pay day doesn't make you any less poor :( :( :(,Negative,clear,-0.9588,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,0.0,Positive
+16,"Wow, my flight got delayed again, love that for me.",Negative,ambiguous,0.7964,Positive
+17,Tomorrow at the #GoldCoast :) http://t.co/yRat44jWAy,Positive,clear,0.4588,Positive
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,0.4278,Positive
+19,Love how the update broke the one feature I actually used.,Negative,ambiguous,0.34,Positive
+20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,Negative,clear,-0.0516,Negative
+21,what usually happens :( https://t.co/6o3ZgNOnvh,Negative,clear,-0.4404,Negative
+22,@fxckedbutbands you look good in that outfit :),Positive,clear,0.7096,Positive
+23,Grande :)  https://t.co/gsaaxNpR8u,Positive,clear,0.4588,Positive
+24,@IrlyanaVL mind to follow back? :),Positive,clear,0.4588,Positive
+25,@my_nameis_dan Download only isn't it? :(,Negative,clear,0.3412,Positive
+26,@lovemybooksUK It's such a good idea to share excellent book titles! What would we do without them all? Keep up the good work :),Positive,clear,0.9324,Positive
+27,This is sick! Best purchase in a while.,Positive,ambiguous,0.2942,Positive
+28,"This app doesn't crash anymore, finally something that works.",Positive,ambiguous,0.3089,Positive
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,0.5574,Positive
+30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,Positive,clear,0.2808,Positive
+31,@aIcouholic ahh!! thank u love :D,Positive,clear,0.9065,Positive
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,0.8316,Positive
+33,"It's not perfect, but I really can't find much to complain about.",Positive,ambiguous,-0.6427,Negative
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,0.6734,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,0.4588,Positive
+36,"The reviews undersell it, this is genuinely great.",Positive,ambiguous,0.6249,Positive
+37,"Not gonna lie, this slaps.",Positive,ambiguous,0.0,Positive
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,-0.4986,Negative
+39,"I don't think the movie is terrible, it's actually much worse than that.",Negative,ambiguous,-0.7351,Negative
+40,I want a flipping Belgium waffle thrown in my face :(,Negative,clear,-0.3818,Negative
+41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",Positive,clear,0.7177,Positive
+42,@mrandmrsMCT no way I missed it too :(,Negative,clear,-0.743,Negative
+43,"Not bad at all, actually really impressed.",Positive,ambiguous,0.7386,Positive
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,0.0,Positive
+45,I guess losing my luggage really 'made my trip'.,Negative,ambiguous,-0.3818,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,-0.9169,Negative
+47,* ✫ ✧ ˚ @Louis_Tomlinson ✧ · ✵ ⊹ Thank you for always putting a smile on my face Mind following me? :) Have a nice day x 1707,Positive,clear,0.8689,Positive
+48,@StevenLDN frightening case. It really gets to you :(,Negative,clear,-0.7269,Negative
+49,"@rebeccalowrie No, it's not just you.  Twitter have decided to take that feature away :-(",Negative,clear,-0.3612,Negative
+50,The service was far from disappointing.,Positive,ambiguous,-0.4939,Negative
+51,Who knew something so cheap could be this good.,Positive,ambiguous,0.5228,Positive
+52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,Positive,clear,-0.6611,Negative
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,0.4588,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,-0.6611,Negative
+55,@iansomerhalder here in Spain is morning :) Good morning Ian!,Positive,clear,0.7345,Positive
+56,Due to rain the show this morning has been cancelled. Sorry if you made the trip in they canceled very last minute. Boo to the rain :-(,Negative,clear,-0.5859,Negative
+57,This is not the disaster I feared -- it's a bigger one.,Negative,ambiguous,0.0243,Positive
+58,@holybatgirl I direct your attention to ... AWESOME-O! :),Positive,clear,0.5093,Positive
+59,"I wasn't expecting much, but wow, pleasantly surprised.",Positive,ambiguous,0.9136,Positive
+60,@HiddlesSupport So much :(,Negative,clear,-0.4902,Negative
+61,@stumac1974 Urquhart Castle: http://t.co/bSgiJFpICc Find all events here: http://t.co/cCS5QGfkk7 Hope that helps :),Positive,clear,0.8176,Positive
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,-0.5875,Negative
+63,Baby :( http://t.co/UR8ZwngzJZ,Negative,clear,-0.4404,Negative
+64,I'm sure the extra fees were 'totally worth it'.,Negative,ambiguous,0.5413,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,0.757,Positive
+66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",Positive,clear,0.7297,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,0.7684,Positive
+68,This fucking bad link isn't working and I can't watch the match! :(,Negative,clear,-0.7897,Negative
+69,my mum decides to walk in and scold me for not cleaning my room just as i sat down and chilled :(,Negative,clear,-0.6808,Negative
+70,@Vequafied I'm bored :(,Negative,clear,-0.6124,Negative
+71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,Negative,clear,0.4215,Positive
+72,Its 5am &amp; I haven't slept :(,Negative,clear,0.3412,Positive
+73,apparently 9muses' performance was cut today &gt;:(,Negative,clear,-0.2732,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,-0.4404,Negative
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,0.049,Positive
+76,Can't say I'm surprised the product broke after one use.,Negative,ambiguous,-0.5371,Negative
+77,All i want is some chocolate and a lucozade :( :( :( :( :(,Negative,clear,-0.9217,Negative
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,0.3802,Positive
+79,When people tell me I have good taste in music :D ^.^,Positive,clear,0.7865,Positive
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,-0.4201,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,0.875,Positive
+82,Hi BAM ! @BarsAndMelody  Can you follow my bestfriend @969Horan696 ?  She loves you a lot :)  See you in Warsaw &lt;3  Love you &lt;3 x39,Positive,clear,0.902,Positive
+83,"That's fire, honestly one of the best I've tried.",Positive,ambiguous,0.7003,Positive
+84,"@zXw0lfXz Hi Adrian, you should have this parcel on Monday or Tuesday :) -Pris",Positive,clear,0.4588,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,0.0,Positive
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,0.5994,Positive
+87,jackson looks so exhausted :-(,Negative,clear,-0.7201,Negative
+88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",Negative,clear,0.5812,Positive
+89,"I have zero complaints, genuinely great experience.",Positive,ambiguous,0.34,Positive
+90,This is exactly the kind of 'quality' I expected.,Negative,ambiguous,0.0,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,-0.504,Negative
+92,Nice rainy walk to work. Stopped to look at rain on the river and saw a kingfisher :),Positive,clear,0.5574,Positive
+93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,Negative,clear,0.34,Positive
+94,Went to bed with headache...woke up with headache :(,Negative,clear,-0.4404,Negative
+95,"The instructions weren't unclear, they were just plain wrong.",Negative,ambiguous,-0.3313,Negative
+96,@SpazzyTsukihara hehehehe thats the point :p,Positive,clear,0.25,Positive
+97,"Never thought I'd say this, but I loved it.",Positive,ambiguous,0.7469,Positive
+98,"@rodtamepoet  ""Rod Tame is embracing his inner actor with aplomb"" :-) Congratulations mate",Positive,clear,0.7351,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,0.9312,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,0.0956,Positive

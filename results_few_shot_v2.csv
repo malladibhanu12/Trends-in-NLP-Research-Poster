@@ -1,0 +1,161 @@
+id,text,gold_label,category,condition,run_number,raw_response,parsed_label
+1,@UnMondeHistoire chalut :),Positive,clear,few_shot,1,Positive,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,1,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,2,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,3,Neutral,Unclear
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,1,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,2,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,3,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,1,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,2,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,3,Negative,Negative
+5,"I can't complain, this exceeded expectations.",Positive,ambiguous,few_shot,1,Positive,Positive
+6,"Nice, another 'brief' meeting that ran two hours over.",Negative,ambiguous,few_shot,1,Negative,Negative
+7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,Negative,clear,few_shot,1,Negative,Negative
+8,"Oh sure, because customer support has been SO responsive.",Negative,ambiguous,few_shot,1,Positive,Positive
+9,@Rinerh -hugs- I really wish I could love :( I miss you.,Negative,clear,few_shot,1,Positive,Positive
+10,I don't think this could have gone any better.,Positive,ambiguous,few_shot,1,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,1,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,2,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,3,Positive,Positive
+12,"I wasn't happy before, and this didn't help at all.",Negative,ambiguous,few_shot,1,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,1,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,2,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,3,Negative,Negative
+14,:( :( :( when pay day doesn't make you any less poor :( :( :(,Negative,clear,few_shot,1,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,1,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,2,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,3,Negative,Negative
+16,"Wow, my flight got delayed again, love that for me.",Negative,ambiguous,few_shot,1,Negative,Negative
+17,Tomorrow at the #GoldCoast :) http://t.co/yRat44jWAy,Positive,clear,few_shot,1,Positive,Positive
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,1,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,2,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,3,Negative,Negative
+19,Love how the update broke the one feature I actually used.,Negative,ambiguous,few_shot,1,Negative,Negative
+20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,Negative,clear,few_shot,1,Positive,Positive
+21,what usually happens :( https://t.co/6o3ZgNOnvh,Negative,clear,few_shot,1,Negative,Negative
+22,@fxckedbutbands you look good in that outfit :),Positive,clear,few_shot,1,Positive,Positive
+23,Grande :)  https://t.co/gsaaxNpR8u,Positive,clear,few_shot,1,Positive,Positive
+24,@IrlyanaVL mind to follow back? :),Positive,clear,few_shot,1,Positive,Positive
+25,@my_nameis_dan Download only isn't it? :(,Negative,clear,few_shot,1,Negative,Negative
+26,@lovemybooksUK It's such a good idea to share excellent book titles! What would we do without them all? Keep up the good work :),Positive,clear,few_shot,1,Positive,Positive
+27,This is sick! Best purchase in a while.,Positive,ambiguous,few_shot,1,Positive,Positive
+28,"This app doesn't crash anymore, finally something that works.",Positive,ambiguous,few_shot,1,Positive,Positive
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,1,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,2,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,3,Negative,Negative
+30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,Positive,clear,few_shot,1,Negative,Negative
+31,@aIcouholic ahh!! thank u love :D,Positive,clear,few_shot,1,Positive,Positive
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,1,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,2,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,3,Negative,Negative
+33,"It's not perfect, but I really can't find much to complain about.",Positive,ambiguous,few_shot,1,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,1,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,2,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,3,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,1,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,2,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,3,Positive,Positive
+36,"The reviews undersell it, this is genuinely great.",Positive,ambiguous,few_shot,1,Positive,Positive
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,1,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,2,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,3,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,1,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,2,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,3,Negative,Negative
+39,"I don't think the movie is terrible, it's actually much worse than that.",Negative,ambiguous,few_shot,1,Negative,Negative
+40,I want a flipping Belgium waffle thrown in my face :(,Negative,clear,few_shot,1,Negative,Negative
+41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",Positive,clear,few_shot,1,Negative,Negative
+42,@mrandmrsMCT no way I missed it too :(,Negative,clear,few_shot,1,Positive,Positive
+43,"Not bad at all, actually really impressed.",Positive,ambiguous,few_shot,1,Positive,Positive
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,1,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,2,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,3,Negative,Negative
+45,I guess losing my luggage really 'made my trip'.,Negative,ambiguous,few_shot,1,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,1,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,2,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,3,Negative,Negative
+47,* ✫ ✧ ˚ @Louis_Tomlinson ✧ · ✵ ⊹ Thank you for always putting a smile on my face Mind following me? :) Have a nice day x 1707,Positive,clear,few_shot,1,Positive,Positive
+48,@StevenLDN frightening case. It really gets to you :(,Negative,clear,few_shot,1,Negative,Negative
+49,"@rebeccalowrie No, it's not just you.  Twitter have decided to take that feature away :-(",Negative,clear,few_shot,1,Negative,Negative
+50,The service was far from disappointing.,Positive,ambiguous,few_shot,1,Positive,Positive
+51,Who knew something so cheap could be this good.,Positive,ambiguous,few_shot,1,Positive,Positive
+52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,Positive,clear,few_shot,1,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,1,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,2,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,3,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,1,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,2,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,3,Positive,Positive
+55,@iansomerhalder here in Spain is morning :) Good morning Ian!,Positive,clear,few_shot,1,Positive,Positive
+56,Due to rain the show this morning has been cancelled. Sorry if you made the trip in they canceled very last minute. Boo to the rain :-(,Negative,clear,few_shot,1,Negative,Negative
+57,This is not the disaster I feared -- it's a bigger one.,Negative,ambiguous,few_shot,1,Negative,Negative
+58,@holybatgirl I direct your attention to ... AWESOME-O! :),Positive,clear,few_shot,1,Positive,Positive
+59,"I wasn't expecting much, but wow, pleasantly surprised.",Positive,ambiguous,few_shot,1,Positive,Positive
+60,@HiddlesSupport So much :(,Negative,clear,few_shot,1,Positive,Positive
+61,@stumac1974 Urquhart Castle: http://t.co/bSgiJFpICc Find all events here: http://t.co/cCS5QGfkk7 Hope that helps :),Positive,clear,few_shot,1,Positive,Positive
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,1,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,2,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,3,Negative,Negative
+63,Baby :( http://t.co/UR8ZwngzJZ,Negative,clear,few_shot,1,Negative,Negative
+64,I'm sure the extra fees were 'totally worth it'.,Negative,ambiguous,few_shot,1,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,1,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,2,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,3,Positive,Positive
+66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",Positive,clear,few_shot,1,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,1,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,2,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,3,Positive,Positive
+68,This fucking bad link isn't working and I can't watch the match! :(,Negative,clear,few_shot,1,Negative,Negative
+69,my mum decides to walk in and scold me for not cleaning my room just as i sat down and chilled :(,Negative,clear,few_shot,1,Negative,Negative
+70,@Vequafied I'm bored :(,Negative,clear,few_shot,1,Negative,Negative
+71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,Negative,clear,few_shot,1,Negative,Negative
+72,Its 5am &amp; I haven't slept :(,Negative,clear,few_shot,1,Negative,Negative
+73,apparently 9muses' performance was cut today &gt;:(,Negative,clear,few_shot,1,Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,1,Positive,Positive
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,2,Positive,Positive
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,3,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,1,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,2,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,3,Positive,Positive
+76,Can't say I'm surprised the product broke after one use.,Negative,ambiguous,few_shot,1,Negative,Negative
+77,All i want is some chocolate and a lucozade :( :( :( :( :(,Negative,clear,few_shot,1,Negative,Negative
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,1,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,2,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,3,Positive,Positive
+79,When people tell me I have good taste in music :D ^.^,Positive,clear,few_shot,1,Positive,Positive
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,1,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,2,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,3,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,1,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,2,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,3,Negative,Negative
+82,Hi BAM ! @BarsAndMelody  Can you follow my bestfriend @969Horan696 ?  She loves you a lot :)  See you in Warsaw &lt;3  Love you &lt;3 x39,Positive,clear,few_shot,1,Positive,Positive
+83,"That's fire, honestly one of the best I've tried.",Positive,ambiguous,few_shot,1,Positive,Positive
+84,"@zXw0lfXz Hi Adrian, you should have this parcel on Monday or Tuesday :) -Pris",Positive,clear,few_shot,1,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,1,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,2,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,3,Positive,Positive
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,1,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,2,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,3,Negative,Negative
+87,jackson looks so exhausted :-(,Negative,clear,few_shot,1,Negative,Negative
+88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",Negative,clear,few_shot,1,Positive,Positive
+89,"I have zero complaints, genuinely great experience.",Positive,ambiguous,few_shot,1,Positive,Positive
+90,This is exactly the kind of 'quality' I expected.,Negative,ambiguous,few_shot,1,Positive,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,1,Positive,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,2,Positive,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,3,Positive,Positive
+92,Nice rainy walk to work. Stopped to look at rain on the river and saw a kingfisher :),Positive,clear,few_shot,1,Positive,Positive
+93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,Negative,clear,few_shot,1,Negative,Negative
+94,Went to bed with headache...woke up with headache :(,Negative,clear,few_shot,1,Negative,Negative
+95,"The instructions weren't unclear, they were just plain wrong.",Negative,ambiguous,few_shot,1,Negative,Negative
+96,@SpazzyTsukihara hehehehe thats the point :p,Positive,clear,few_shot,1,Positive,Positive
+97,"Never thought I'd say this, but I loved it.",Positive,ambiguous,few_shot,1,Positive,Positive
+98,"@rodtamepoet  ""Rod Tame is embracing his inner actor with aplomb"" :-) Congratulations mate",Positive,clear,few_shot,1,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,1,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,2,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,3,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,1,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,2,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,3,Positive,Positive

@@ -1,0 +1,481 @@
+id,text,gold_label,category,condition,run_number,raw_response,parsed_label
+1,@UnMondeHistoire chalut :),Positive,clear,zero_shot,1,Positive,Positive
+1,@UnMondeHistoire chalut :),Positive,clear,few_shot,1,Positive,Positive
+1,@UnMondeHistoire chalut :),Positive,clear,cot,1,Final: Positive,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,zero_shot,1,Positive,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,zero_shot,2,Positive,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,zero_shot,3,Positive,Positive
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,1,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,2,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,3,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,cot,1,Final: Negative,Negative
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,cot,2,Final: Negative,Negative
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,cot,3,"Final: Negative |  | Reasoning: | 1. The text contains evaluative words like ""hate"" (though negated) and ""actually pretty solid"", indicating a negative sentiment towards the subject. | 2. There is no clear evidence of negation or sarcasm in this statement, but it aligns with a generally negative opinion rather than an ambiguous one. | 3. While not explicitly positive, there are few elements that lean more toward a neutral stance (not outright negative), contributing to the overall negative impression. |  | The text suggests a sentiment closer to being negative due to its critical tone towards whatever ""it"" refers to, even though it's stated in a somewhat neutral way.",Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,zero_shot,1,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,zero_shot,2,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,zero_shot,3,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,1,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,2,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,few_shot,3,Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,cot,1,Final: Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,cot,2,Final: Negative,Negative
+3,@derekklahn You cant hold another week? September 21st. :-((,Negative,clear,cot,3,Final: Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,zero_shot,1,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,zero_shot,2,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,zero_shot,3,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,1,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,2,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,few_shot,3,Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,cot,1,Final: Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,cot,2,Final: Negative,Negative
+4,"Oh great, another Monday, just what I needed.",Negative,ambiguous,cot,3,Final: Negative,Negative
+5,"I can't complain, this exceeded expectations.",Positive,ambiguous,zero_shot,1,Positive,Positive
+5,"I can't complain, this exceeded expectations.",Positive,ambiguous,few_shot,1,Positive,Positive
+5,"I can't complain, this exceeded expectations.",Positive,ambiguous,cot,1,Final: Positive,Positive
+6,"Nice, another 'brief' meeting that ran two hours over.",Negative,ambiguous,zero_shot,1,Negative,Negative
+6,"Nice, another 'brief' meeting that ran two hours over.",Negative,ambiguous,few_shot,1,Negative,Negative
+6,"Nice, another 'brief' meeting that ran two hours over.",Negative,ambiguous,cot,1,Final: Negative,Negative
+7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,Negative,clear,zero_shot,1,Negative,Negative
+7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,Negative,clear,few_shot,1,Negative,Negative
+7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,Negative,clear,cot,1,Final: Negative,Negative
+8,"Oh sure, because customer support has been SO responsive.",Negative,ambiguous,zero_shot,1,Positive,Positive
+8,"Oh sure, because customer support has been SO responsive.",Negative,ambiguous,few_shot,1,Positive,Positive
+8,"Oh sure, because customer support has been SO responsive.",Negative,ambiguous,cot,1,Final: Negative,Negative
+9,@Rinerh -hugs- I really wish I could love :( I miss you.,Negative,clear,zero_shot,1,Negative,Negative
+9,@Rinerh -hugs- I really wish I could love :( I miss you.,Negative,clear,few_shot,1,Positive,Positive
+9,@Rinerh -hugs- I really wish I could love :( I miss you.,Negative,clear,cot,1,Final: Negative,Negative
+10,I don't think this could have gone any better.,Positive,ambiguous,zero_shot,1,Positive,Positive
+10,I don't think this could have gone any better.,Positive,ambiguous,few_shot,1,Positive,Positive
+10,I don't think this could have gone any better.,Positive,ambiguous,cot,1,Final: Negative,Negative
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,zero_shot,1,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,zero_shot,2,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,zero_shot,3,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,1,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,2,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,few_shot,3,Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,cot,1,Final: Positive,Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,cot,2,"Final: Positive |  | Explanation: | 1. The text contains positive words like ""happy"" and enthusiastic punctuation marks ("":)""). | 2. There is a mention of the recipient's birthday, which typically elicits positive feelings. | 3. The use of emojis further reinforces the positive sentiment. | 4. The overall tone is cheerful and celebratory. |  | The combination of these factors clearly indicates a positive sentiment.",Positive
+11,Happy happy birthday TO ME!!  Happy happy birthday To ME!! :) https://t.co/2cgXNdP00h,Positive,clear,cot,3,Final: Positive,Positive
+12,"I wasn't happy before, and this didn't help at all.",Negative,ambiguous,zero_shot,1,Negative,Negative
+12,"I wasn't happy before, and this didn't help at all.",Negative,ambiguous,few_shot,1,Negative,Negative
+12,"I wasn't happy before, and this didn't help at all.",Negative,ambiguous,cot,1,Final: Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,zero_shot,1,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,zero_shot,2,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,zero_shot,3,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,1,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,2,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,few_shot,3,Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,cot,1,Final: Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,cot,2,Final: Negative,Negative
+13,@bangtanthough but i'm waiting for sumer repackage :'D so i have no money to buy this :(,Negative,clear,cot,3,Final: Negative,Negative
+14,:( :( :( when pay day doesn't make you any less poor :( :( :(,Negative,clear,zero_shot,1,Negative,Negative
+14,:( :( :( when pay day doesn't make you any less poor :( :( :(,Negative,clear,few_shot,1,Negative,Negative
+14,:( :( :( when pay day doesn't make you any less poor :( :( :(,Negative,clear,cot,1,Final: Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,zero_shot,1,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,zero_shot,2,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,zero_shot,3,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,1,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,2,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,few_shot,3,Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,cot,1,"Final: Negative |  | Explanation: | 1. The text contains no explicitly positive or negative emotional words or phrases. | 2. There are no negations that would alter the overall sentiment significantly. | 3. There is one sarcastic element, but it's not strong enough to impact the overall sentiment judgment. | 4. Despite the use of "":-)"", which might be a sign of sarcasm, the text itself does not convey any negative emotions. |  | The context and tone appear neutral, focusing on an activity that lasted half an hour without expressing any positive or negative feelings about the experience.",Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,cot,2,Final: Negative,Negative
+15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),Positive,clear,cot,3,"Final: Negative |  | Explanation: | - The text contains no positive emotional or evaluative words. | - There are no negations that affect the meaning negatively. | - The sentence is neutral in tone and does not contain sarcasm or irony. | - The phrase ""I spent a half hour total on this"" implies an effort, which could be seen as a negative action (spending time) but lacks positive sentiment context.",Negative
+16,"Wow, my flight got delayed again, love that for me.",Negative,ambiguous,zero_shot,1,Negative,Negative
+16,"Wow, my flight got delayed again, love that for me.",Negative,ambiguous,few_shot,1,Negative,Negative
+16,"Wow, my flight got delayed again, love that for me.",Negative,ambiguous,cot,1,Final: Negative,Negative
+17,Tomorrow at the #GoldCoast :) http://t.co/yRat44jWAy,Positive,clear,zero_shot,1,Positive,Positive
+17,Tomorrow at the #GoldCoast :) http://t.co/yRat44jWAy,Positive,clear,few_shot,1,Positive,Positive
+17,Tomorrow at the #GoldCoast :) http://t.co/yRat44jWAy,Positive,clear,cot,1,Final: Positive,Positive
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,zero_shot,1,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,zero_shot,2,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,zero_shot,3,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,1,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,2,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,few_shot,3,Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,cot,1,Final: Positive,Positive
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,cot,2,Final: Negative,Negative
+18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,Positive,clear,cot,3,Final: Positive,Positive
+19,Love how the update broke the one feature I actually used.,Negative,ambiguous,zero_shot,1,Positive,Positive
+19,Love how the update broke the one feature I actually used.,Negative,ambiguous,few_shot,1,Negative,Negative
+19,Love how the update broke the one feature I actually used.,Negative,ambiguous,cot,1,Final: Positive,Positive
+20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,Negative,clear,zero_shot,1,Positive,Positive
+20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,Negative,clear,few_shot,1,Positive,Positive
+20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,Negative,clear,cot,1,Final: Negative,Negative
+21,what usually happens :( https://t.co/6o3ZgNOnvh,Negative,clear,zero_shot,1,Negative,Negative
+21,what usually happens :( https://t.co/6o3ZgNOnvh,Negative,clear,few_shot,1,Negative,Negative
+21,what usually happens :( https://t.co/6o3ZgNOnvh,Negative,clear,cot,1,Final: Negative,Negative
+22,@fxckedbutbands you look good in that outfit :),Positive,clear,zero_shot,1,Positive,Positive
+22,@fxckedbutbands you look good in that outfit :),Positive,clear,few_shot,1,Positive,Positive
+22,@fxckedbutbands you look good in that outfit :),Positive,clear,cot,1,Final: Positive,Positive
+23,Grande :)  https://t.co/gsaaxNpR8u,Positive,clear,zero_shot,1,Positive,Positive
+23,Grande :)  https://t.co/gsaaxNpR8u,Positive,clear,few_shot,1,Positive,Positive
+23,Grande :)  https://t.co/gsaaxNpR8u,Positive,clear,cot,1,Final: Positive,Positive
+24,@IrlyanaVL mind to follow back? :),Positive,clear,zero_shot,1,Positive,Positive
+24,@IrlyanaVL mind to follow back? :),Positive,clear,few_shot,1,Positive,Positive
+24,@IrlyanaVL mind to follow back? :),Positive,clear,cot,1,Final: Negative,Negative
+25,@my_nameis_dan Download only isn't it? :(,Negative,clear,zero_shot,1,Negative,Negative
+25,@my_nameis_dan Download only isn't it? :(,Negative,clear,few_shot,1,Negative,Negative
+25,@my_nameis_dan Download only isn't it? :(,Negative,clear,cot,1,Final: Negative,Negative
+26,@lovemybooksUK It's such a good idea to share excellent book titles! What would we do without them all? Keep up the good work :),Positive,clear,zero_shot,1,Positive,Positive
+26,@lovemybooksUK It's such a good idea to share excellent book titles! What would we do without them all? Keep up the good work :),Positive,clear,few_shot,1,Positive,Positive
+26,@lovemybooksUK It's such a good idea to share excellent book titles! What would we do without them all? Keep up the good work :),Positive,clear,cot,1,Final: Positive,Positive
+27,This is sick! Best purchase in a while.,Positive,ambiguous,zero_shot,1,Positive,Positive
+27,This is sick! Best purchase in a while.,Positive,ambiguous,few_shot,1,Positive,Positive
+27,This is sick! Best purchase in a while.,Positive,ambiguous,cot,1,Final: Positive,Positive
+28,"This app doesn't crash anymore, finally something that works.",Positive,ambiguous,zero_shot,1,Positive,Positive
+28,"This app doesn't crash anymore, finally something that works.",Positive,ambiguous,few_shot,1,Positive,Positive
+28,"This app doesn't crash anymore, finally something that works.",Positive,ambiguous,cot,1,Final: Positive,Positive
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,zero_shot,1,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,zero_shot,2,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,zero_shot,3,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,1,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,2,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,few_shot,3,Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,cot,1,Final: Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,cot,2,Final: Negative,Negative
+29,"Fantastic, the app crashed again right before the deadline.",Negative,ambiguous,cot,3,Final: Negative,Negative
+30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,Positive,clear,zero_shot,1,Positive,Positive
+30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,Positive,clear,few_shot,1,Positive,Positive
+30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,Positive,clear,cot,1,"Final: Negative |  | Reasoning: | 1. The text contains the phrase ""Choroo ga nahi"" which translates to ""Don't you think"" in English. | 2. While this phrase is not inherently negative, it could be interpreted negatively if paired with another statement expressing tiredness or dissatisfaction about a previous experience involving someone named ""us"". | 3. Given that the context of tiredness and possibly a frustrated tone (implied by the use of sarcasm) seems to dominate in this text. | 4. The overall sentiment is one of resignation and mild frustration, leaning towards negativity rather than positivity.",Negative
+31,@aIcouholic ahh!! thank u love :D,Positive,clear,zero_shot,1,Positive,Positive
+31,@aIcouholic ahh!! thank u love :D,Positive,clear,few_shot,1,Positive,Positive
+31,@aIcouholic ahh!! thank u love :D,Positive,clear,cot,1,"Final: Negative |  | Explanation: | 1. The text contains emotional phrases like ""ahh!!"" and "":D"", which indicate excitement or joy. | 2. There are no negation words that would negate these positive expressions. | 3. Sarcasm is not present in the phrase, as it lacks irony or contradiction to the intended meaning. | 4. Combining these observations, the overall sentiment is clearly positive due to the enthusiastic and affectionate language used. |  | Final: Positive",Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,zero_shot,1,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,zero_shot,2,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,zero_shot,3,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,1,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,2,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,few_shot,3,Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,cot,1,Final: Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,cot,2,Final: Negative,Negative
+32,"Great, now the wifi is down too. Perfect timing.",Negative,ambiguous,cot,3,Final: Negative,Negative
+33,"It's not perfect, but I really can't find much to complain about.",Positive,ambiguous,zero_shot,1,Positive,Positive
+33,"It's not perfect, but I really can't find much to complain about.",Positive,ambiguous,few_shot,1,Positive,Positive
+33,"It's not perfect, but I really can't find much to complain about.",Positive,ambiguous,cot,1,"Firstly, let's identify the emotional or evaluative words/phrases in the text: | - ""not perfect"" (negative) | - ""can't find much to complain about"" (positive) |  | Next, we check for negation and how it affects meaning: | There is no explicit negation present. |  | Then, we look for sarcasm/irony: | The text seems neutral or slightly positive, but there's a suggestion of a slight negative tone in the statement that ""It's not perfect."" |  | Finally, combining these observations into an overall sentiment judgment: |  | Final: Positive",Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,zero_shot,1,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,zero_shot,2,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,zero_shot,3,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,1,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,2,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,few_shot,3,Positive,Positive
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,cot,1,Final: Negative,Negative
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,cot,2,Final: Negative,Negative
+34,"I'm not even mad, this turned out better than planned.",Positive,ambiguous,cot,3,Final: Negative,Negative
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,zero_shot,1,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,zero_shot,2,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,zero_shot,3,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,1,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,2,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,few_shot,3,Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,cot,1,Final: Negative,Negative
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,cot,2,Final: Positive,Positive
+35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",Positive,clear,cot,3,"Final: Positive |  | **Reasoning:** | 1. **Identify emotional or evaluative words/phrases**: The text contains positive descriptors such as ""garlic"", ""olive oil"", ""sun dried tomatoes"", and ""century tuna"". | 2. **Check for negation**: There are no words indicating a negative sentiment. | 3. **Check for sarcasm/irony**: The use of "" :)"" (smiling face emoji) suggests that the content is meant in a positive context, not sarcastic or ironic. | 4. **Combine these observations into an overall sentiment judgment**: |    - Positive descriptors are used. |    - There are no negative indicators present. |    - The inclusion of emojis and hashtags typically indicates a positive tone. |  | The text appears to be encouraging and inviting, focusing on the presentation of food items in a pleasant manner, which is generally viewed as positive.",Positive
+36,"The reviews undersell it, this is genuinely great.",Positive,ambiguous,zero_shot,1,Positive,Positive
+36,"The reviews undersell it, this is genuinely great.",Positive,ambiguous,few_shot,1,Positive,Positive
+36,"The reviews undersell it, this is genuinely great.",Positive,ambiguous,cot,1,Final: Positive,Positive
+37,"Not gonna lie, this slaps.",Positive,ambiguous,zero_shot,1,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,zero_shot,2,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,zero_shot,3,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,1,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,2,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,few_shot,3,Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,cot,1,Final: Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,cot,2,Final: Negative,Negative
+37,"Not gonna lie, this slaps.",Positive,ambiguous,cot,3,Final: Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,zero_shot,1,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,zero_shot,2,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,zero_shot,3,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,1,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,2,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,few_shot,3,Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,cot,1,Final: Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,cot,2,Final: Negative,Negative
+38,Nothing says 'relaxing weekend' like a broken washing machine.,Negative,ambiguous,cot,3,Final: Negative,Negative
+39,"I don't think the movie is terrible, it's actually much worse than that.",Negative,ambiguous,zero_shot,1,Negative,Negative
+39,"I don't think the movie is terrible, it's actually much worse than that.",Negative,ambiguous,few_shot,1,Negative,Negative
+39,"I don't think the movie is terrible, it's actually much worse than that.",Negative,ambiguous,cot,1,Final: Negative,Negative
+40,I want a flipping Belgium waffle thrown in my face :(,Negative,clear,zero_shot,1,Negative,Negative
+40,I want a flipping Belgium waffle thrown in my face :(,Negative,clear,few_shot,1,Negative,Negative
+40,I want a flipping Belgium waffle thrown in my face :(,Negative,clear,cot,1,Final: Negative,Negative
+41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",Positive,clear,zero_shot,1,Negative,Negative
+41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",Positive,clear,few_shot,1,Negative,Negative
+41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",Positive,clear,cot,1,Final: Negative,Negative
+42,@mrandmrsMCT no way I missed it too :(,Negative,clear,zero_shot,1,Negative,Negative
+42,@mrandmrsMCT no way I missed it too :(,Negative,clear,few_shot,1,Positive,Positive
+42,@mrandmrsMCT no way I missed it too :(,Negative,clear,cot,1,Final: Negative,Negative
+43,"Not bad at all, actually really impressed.",Positive,ambiguous,zero_shot,1,Positive,Positive
+43,"Not bad at all, actually really impressed.",Positive,ambiguous,few_shot,1,Positive,Positive
+43,"Not bad at all, actually really impressed.",Positive,ambiguous,cot,1,Final: Positive,Positive
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,zero_shot,1,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,zero_shot,2,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,zero_shot,3,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,1,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,2,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,few_shot,3,Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,cot,1,Final: Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,cot,2,Final: Negative,Negative
+44,wonho reminds me of someone &gt;:( i just cant put my finger to it,Negative,clear,cot,3,Final: Negative,Negative
+45,I guess losing my luggage really 'made my trip'.,Negative,ambiguous,zero_shot,1,Negative,Negative
+45,I guess losing my luggage really 'made my trip'.,Negative,ambiguous,few_shot,1,Negative,Negative
+45,I guess losing my luggage really 'made my trip'.,Negative,ambiguous,cot,1,Final: Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,zero_shot,1,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,zero_shot,2,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,zero_shot,3,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,1,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,2,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,few_shot,3,Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,cot,1,Final: Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,cot,2,Final: Negative,Negative
+46,so I was driving home rn and I almost ran over a coyote :( shit scared the fuck outta me.,Negative,clear,cot,3,Final: Negative,Negative
+47,* ✫ ✧ ˚ @Louis_Tomlinson ✧ · ✵ ⊹ Thank you for always putting a smile on my face Mind following me? :) Have a nice day x 1707,Positive,clear,zero_shot,1,Positive,Positive
+47,* ✫ ✧ ˚ @Louis_Tomlinson ✧ · ✵ ⊹ Thank you for always putting a smile on my face Mind following me? :) Have a nice day x 1707,Positive,clear,few_shot,1,Positive,Positive
+47,* ✫ ✧ ˚ @Louis_Tomlinson ✧ · ✵ ⊹ Thank you for always putting a smile on my face Mind following me? :) Have a nice day x 1707,Positive,clear,cot,1,Final: Positive,Positive
+48,@StevenLDN frightening case. It really gets to you :(,Negative,clear,zero_shot,1,Negative,Negative
+48,@StevenLDN frightening case. It really gets to you :(,Negative,clear,few_shot,1,Negative,Negative
+48,@StevenLDN frightening case. It really gets to you :(,Negative,clear,cot,1,Final: Negative,Negative
+49,"@rebeccalowrie No, it's not just you.  Twitter have decided to take that feature away :-(",Negative,clear,zero_shot,1,Negative,Negative
+49,"@rebeccalowrie No, it's not just you.  Twitter have decided to take that feature away :-(",Negative,clear,few_shot,1,Negative,Negative
+49,"@rebeccalowrie No, it's not just you.  Twitter have decided to take that feature away :-(",Negative,clear,cot,1,Final: Negative,Negative
+50,The service was far from disappointing.,Positive,ambiguous,zero_shot,1,Positive,Positive
+50,The service was far from disappointing.,Positive,ambiguous,few_shot,1,Positive,Positive
+50,The service was far from disappointing.,Positive,ambiguous,cot,1,Final: Positive,Positive
+51,Who knew something so cheap could be this good.,Positive,ambiguous,zero_shot,1,Positive,Positive
+51,Who knew something so cheap could be this good.,Positive,ambiguous,few_shot,1,Positive,Positive
+51,Who knew something so cheap could be this good.,Positive,ambiguous,cot,1,Final: Negative,Negative
+52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,Positive,clear,zero_shot,1,Positive,Positive
+52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,Positive,clear,few_shot,1,Positive,Positive
+52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,Positive,clear,cot,1,Final: Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,zero_shot,1,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,zero_shot,2,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,zero_shot,3,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,1,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,2,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,few_shot,3,Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,cot,1,Final: Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,cot,2,Final: Positive,Positive
+53,Contact us today and we'll get you out of the city into a 'hotbed' in a bush somewhere :) #ClassicAssures,Positive,clear,cot,3,Final: Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,zero_shot,1,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,zero_shot,2,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,zero_shot,3,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,1,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,2,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,few_shot,3,Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,cot,1,Final: Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,cot,2,Final: Positive,Positive
+54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,Positive,clear,cot,3,Final: Positive,Positive
+55,@iansomerhalder here in Spain is morning :) Good morning Ian!,Positive,clear,zero_shot,1,Positive,Positive
+55,@iansomerhalder here in Spain is morning :) Good morning Ian!,Positive,clear,few_shot,1,Positive,Positive
+55,@iansomerhalder here in Spain is morning :) Good morning Ian!,Positive,clear,cot,1,Final: Positive,Positive
+56,Due to rain the show this morning has been cancelled. Sorry if you made the trip in they canceled very last minute. Boo to the rain :-(,Negative,clear,zero_shot,1,Negative,Negative
+56,Due to rain the show this morning has been cancelled. Sorry if you made the trip in they canceled very last minute. Boo to the rain :-(,Negative,clear,few_shot,1,Negative,Negative
+56,Due to rain the show this morning has been cancelled. Sorry if you made the trip in they canceled very last minute. Boo to the rain :-(,Negative,clear,cot,1,"1. Identify emotional or evaluative words/phrases: |    - Rain (negative) |    - Show (neutral, but contextually negative due to cancellation) |    - Canceled (clearly negative action with strong connotation of failure) |  | 2. Check for negation: |    - ""Sorry"" implies a negative situation |    - There is no direct negation in the text |  | 3. Check for sarcasm or irony: |    - The use of ""boo"" and emoticons indicates an attempt to be negative but failing, which is not typical sarcasm. |  | 4. Combine these observations into an overall sentiment judgment: |  | Final: Negative",Negative
+57,This is not the disaster I feared -- it's a bigger one.,Negative,ambiguous,zero_shot,1,Negative,Negative
+57,This is not the disaster I feared -- it's a bigger one.,Negative,ambiguous,few_shot,1,Positive,Positive
+57,This is not the disaster I feared -- it's a bigger one.,Negative,ambiguous,cot,1,Final: Negative,Negative
+58,@holybatgirl I direct your attention to ... AWESOME-O! :),Positive,clear,zero_shot,1,Positive,Positive
+58,@holybatgirl I direct your attention to ... AWESOME-O! :),Positive,clear,few_shot,1,Positive,Positive
+58,@holybatgirl I direct your attention to ... AWESOME-O! :),Positive,clear,cot,1,Final: Positive,Positive
+59,"I wasn't expecting much, but wow, pleasantly surprised.",Positive,ambiguous,zero_shot,1,Positive,Positive
+59,"I wasn't expecting much, but wow, pleasantly surprised.",Positive,ambiguous,few_shot,1,Positive,Positive
+59,"I wasn't expecting much, but wow, pleasantly surprised.",Positive,ambiguous,cot,1,Final: Positive,Positive
+60,@HiddlesSupport So much :(,Negative,clear,zero_shot,1,Negative,Negative
+60,@HiddlesSupport So much :(,Negative,clear,few_shot,1,Positive,Positive
+60,@HiddlesSupport So much :(,Negative,clear,cot,1,Final: Negative,Negative
+61,@stumac1974 Urquhart Castle: http://t.co/bSgiJFpICc Find all events here: http://t.co/cCS5QGfkk7 Hope that helps :),Positive,clear,zero_shot,1,Positive,Positive
+61,@stumac1974 Urquhart Castle: http://t.co/bSgiJFpICc Find all events here: http://t.co/cCS5QGfkk7 Hope that helps :),Positive,clear,few_shot,1,Positive,Positive
+61,@stumac1974 Urquhart Castle: http://t.co/bSgiJFpICc Find all events here: http://t.co/cCS5QGfkk7 Hope that helps :),Positive,clear,cot,1,Final: Positive,Positive
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,zero_shot,1,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,zero_shot,2,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,zero_shot,3,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,1,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,2,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,few_shot,3,Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,cot,1,Final: Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,cot,2,Final: Negative,Negative
+62,"The food wasn't good, and the service wasn't much better either.",Negative,ambiguous,cot,3,Final: Negative,Negative
+63,Baby :( http://t.co/UR8ZwngzJZ,Negative,clear,zero_shot,1,Negative,Negative
+63,Baby :( http://t.co/UR8ZwngzJZ,Negative,clear,few_shot,1,Negative,Negative
+63,Baby :( http://t.co/UR8ZwngzJZ,Negative,clear,cot,1,Final: Negative,Negative
+64,I'm sure the extra fees were 'totally worth it'.,Negative,ambiguous,zero_shot,1,Positive,Positive
+64,I'm sure the extra fees were 'totally worth it'.,Negative,ambiguous,few_shot,1,Positive,Positive
+64,I'm sure the extra fees were 'totally worth it'.,Negative,ambiguous,cot,1,Final: Negative,Negative
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,zero_shot,1,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,zero_shot,2,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,zero_shot,3,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,1,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,2,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,few_shot,3,Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,cot,1,Final: Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,cot,2,Final: Positive,Positive
+65,"It's not the worst thing I've ever eaten, actually quite good.",Positive,ambiguous,cot,3,Final: Positive,Positive
+66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",Positive,clear,zero_shot,1,Negative,Negative
+66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",Positive,clear,few_shot,1,Positive,Positive
+66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",Positive,clear,cot,1,Final: Negative,Negative
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,zero_shot,1,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,zero_shot,2,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,zero_shot,3,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,1,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,2,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,few_shot,3,Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,cot,1,Final: Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,cot,2,Final: Positive,Positive
+67,"Didn't think I'd say this about a Monday, but today was great.",Positive,ambiguous,cot,3,"1. Identifying emotional or evaluative words/phrases: |    - ""great"" is an evaluative phrase indicating positive sentiment. |  | 2. Checking for negation or sarcasm: |    - There are no negations or sarcastic elements in this text. |  | 3. Combining observations into an overall judgment: |    - The presence of the word ""great"" indicates a clearly positive sentiment without any conflicting information. |  | Final: Positive",Positive
+68,This fucking bad link isn't working and I can't watch the match! :(,Negative,clear,zero_shot,1,Negative,Negative
+68,This fucking bad link isn't working and I can't watch the match! :(,Negative,clear,few_shot,1,Negative,Negative
+68,This fucking bad link isn't working and I can't watch the match! :(,Negative,clear,cot,1,Final: Negative,Negative
+69,my mum decides to walk in and scold me for not cleaning my room just as i sat down and chilled :(,Negative,clear,zero_shot,1,Negative,Negative
+69,my mum decides to walk in and scold me for not cleaning my room just as i sat down and chilled :(,Negative,clear,few_shot,1,Negative,Negative
+69,my mum decides to walk in and scold me for not cleaning my room just as i sat down and chilled :(,Negative,clear,cot,1,Final: Negative,Negative
+70,@Vequafied I'm bored :(,Negative,clear,zero_shot,1,Negative,Negative
+70,@Vequafied I'm bored :(,Negative,clear,few_shot,1,Negative,Negative
+70,@Vequafied I'm bored :(,Negative,clear,cot,1,Final: Negative,Negative
+71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,Negative,clear,zero_shot,1,Negative,Negative
+71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,Negative,clear,few_shot,1,Negative,Negative
+71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,Negative,clear,cot,1,Final: Negative,Negative
+72,Its 5am &amp; I haven't slept :(,Negative,clear,zero_shot,1,Negative,Negative
+72,Its 5am &amp; I haven't slept :(,Negative,clear,few_shot,1,Negative,Negative
+72,Its 5am &amp; I haven't slept :(,Negative,clear,cot,1,Final: Negative,Negative
+73,apparently 9muses' performance was cut today &gt;:(,Negative,clear,zero_shot,1,Negative,Negative
+73,apparently 9muses' performance was cut today &gt;:(,Negative,clear,few_shot,1,Negative,Negative
+73,apparently 9muses' performance was cut today &gt;:(,Negative,clear,cot,1,Final: Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,zero_shot,1,Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,zero_shot,2,Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,zero_shot,3,Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,1,Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,2,Positive,Positive
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,few_shot,3,Positive,Positive
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,cot,1,Final: Negative,Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,cot,2,"The text contains negative words such as ""ran out"", indicating a lack, which is often associated with sadness or disappointment. It also includes hashtags like ""#CheatDay,"" which suggests the user is participating in an activity they typically do for pleasure rather than necessity. |  | Final: Negative",Negative
+74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,Negative,clear,cot,3,Final: Negative,Negative
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,zero_shot,1,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,zero_shot,2,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,zero_shot,3,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,1,Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,2,Negative,Negative
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,few_shot,3,Negative,Negative
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,cot,1,Final: Negative,Negative
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,cot,2,Final: Positive,Positive
+75,"Sure, take your time, it's not like I have anywhere to be.",Negative,ambiguous,cot,3,Final: Negative,Negative
+76,Can't say I'm surprised the product broke after one use.,Negative,ambiguous,zero_shot,1,Negative,Negative
+76,Can't say I'm surprised the product broke after one use.,Negative,ambiguous,few_shot,1,Negative,Negative
+76,Can't say I'm surprised the product broke after one use.,Negative,ambiguous,cot,1,Final: Negative,Negative
+77,All i want is some chocolate and a lucozade :( :( :( :( :(,Negative,clear,zero_shot,1,Negative,Negative
+77,All i want is some chocolate and a lucozade :( :( :( :( :(,Negative,clear,few_shot,1,Negative,Negative
+77,All i want is some chocolate and a lucozade :( :( :( :( :(,Negative,clear,cot,1,Final: Negative,Negative
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,zero_shot,1,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,zero_shot,2,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,zero_shot,3,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,1,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,2,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,few_shot,3,Positive,Positive
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,cot,1,"Final: Negative |  | **Reasoning:** |  | 1. **Identify emotional or evaluative words/phrases**: The text contains emojis (""WHOOP WHOOP!"") which are typically used to express excitement, joy, or enthusiasm. | 2. **Check for negation**: There is no explicit use of negation in the text that would change the meaning into a negative sentiment. | 3. **Check for sarcasm or irony**: The phrase ""WHOOP WHOOP!"" with an exclamation mark and smiley face indicates excitement and happiness rather than sarcasm or irony. | 4. **Combine these observations into an overall sentiment judgment**: |    - While the text uses positive emojis, it lacks any negative elements that would negate this positivity. The combination of emojis does not change their intended meaning from joyous to negative. |  | Given these points, the overall sentiment is positive but slightly casual and excited through the use of smiley faces rather than explicit negation or sarcasm.",Negative
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,cot,2,Final: Negative,Negative
+78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,Positive,clear,cot,3,"Final: Negative |  | **Explanation:** | 1. The text contains emoticons "":)"" which typically indicate positive emotions. | 2. There are no negations or sarcasm in the language used. | 3. The phrase ""WHOOP WHOOP!"" is a playful, exaggerated expression and not inherently negative. | 4. Despite some positive indicators (the smiley face), the overall context seems playful rather than critical. |  | Final sentiment: Negative",Negative
+79,When people tell me I have good taste in music :D ^.^,Positive,clear,zero_shot,1,Positive,Positive
+79,When people tell me I have good taste in music :D ^.^,Positive,clear,few_shot,1,Positive,Positive
+79,When people tell me I have good taste in music :D ^.^,Positive,clear,cot,1,Final: Positive,Positive
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,zero_shot,1,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,zero_shot,2,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,zero_shot,3,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,1,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,2,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,few_shot,3,Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,cot,1,Final: Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,cot,2,Final: Negative,Negative
+80,"Just what I always wanted, more spam emails.",Negative,ambiguous,cot,3,Final: Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,zero_shot,1,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,zero_shot,2,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,zero_shot,3,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,1,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,2,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,few_shot,3,Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,cot,1,Final: Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,cot,2,Final: Negative,Negative
+81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),Positive,clear,cot,3,Final: Negative,Negative
+82,Hi BAM ! @BarsAndMelody  Can you follow my bestfriend @969Horan696 ?  She loves you a lot :)  See you in Warsaw &lt;3  Love you &lt;3 x39,Positive,clear,zero_shot,1,Positive,Positive
+82,Hi BAM ! @BarsAndMelody  Can you follow my bestfriend @969Horan696 ?  She loves you a lot :)  See you in Warsaw &lt;3  Love you &lt;3 x39,Positive,clear,few_shot,1,Positive,Positive
+82,Hi BAM ! @BarsAndMelody  Can you follow my bestfriend @969Horan696 ?  She loves you a lot :)  See you in Warsaw &lt;3  Love you &lt;3 x39,Positive,clear,cot,1,Final: Positive,Positive
+83,"That's fire, honestly one of the best I've tried.",Positive,ambiguous,zero_shot,1,Positive,Positive
+83,"That's fire, honestly one of the best I've tried.",Positive,ambiguous,few_shot,1,Positive,Positive
+83,"That's fire, honestly one of the best I've tried.",Positive,ambiguous,cot,1,Final: Positive,Positive
+84,"@zXw0lfXz Hi Adrian, you should have this parcel on Monday or Tuesday :) -Pris",Positive,clear,zero_shot,1,Positive,Positive
+84,"@zXw0lfXz Hi Adrian, you should have this parcel on Monday or Tuesday :) -Pris",Positive,clear,few_shot,1,Positive,Positive
+84,"@zXw0lfXz Hi Adrian, you should have this parcel on Monday or Tuesday :) -Pris",Positive,clear,cot,1,Final: Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,zero_shot,1,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,zero_shot,2,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,zero_shot,3,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,1,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,2,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,few_shot,3,Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,cot,1,Final: Positive,Positive
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,cot,2,Final: Negative,Negative
+85,"I take back what I said earlier, this is actually decent.",Positive,ambiguous,cot,3,Final: Positive,Positive
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,zero_shot,1,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,zero_shot,2,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,zero_shot,3,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,1,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,2,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,few_shot,3,Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,cot,1,Final: Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,cot,2,Final: Negative,Negative
+86,"Yeah, because waiting three hours on hold is such a treat.",Negative,ambiguous,cot,3,Final: Negative,Negative
+87,jackson looks so exhausted :-(,Negative,clear,zero_shot,1,Negative,Negative
+87,jackson looks so exhausted :-(,Negative,clear,few_shot,1,Negative,Negative
+87,jackson looks so exhausted :-(,Negative,clear,cot,1,Final: Negative,Negative
+88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",Negative,clear,zero_shot,1,Negative,Negative
+88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",Negative,clear,few_shot,1,Positive,Positive
+88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",Negative,clear,cot,1,Final: Negative,Negative
+89,"I have zero complaints, genuinely great experience.",Positive,ambiguous,zero_shot,1,Positive,Positive
+89,"I have zero complaints, genuinely great experience.",Positive,ambiguous,few_shot,1,Positive,Positive
+89,"I have zero complaints, genuinely great experience.",Positive,ambiguous,cot,1,Final: Positive,Positive
+90,This is exactly the kind of 'quality' I expected.,Negative,ambiguous,zero_shot,1,Positive,Positive
+90,This is exactly the kind of 'quality' I expected.,Negative,ambiguous,few_shot,1,Positive,Positive
+90,This is exactly the kind of 'quality' I expected.,Negative,ambiguous,cot,1,"Final: Negative |  | Explanation: | 1. The text contains evaluative phrases like ""kind"" and ""quality"". | 2. There are no negations or sarcasm in this sentence. | 3. The phrase implies that the speaker has expectations based on quality, which is typically a positive expectation. | 4. Overall, the sentiment conveyed by the statement is positive. |  | Therefore, the sentiment of the text is Positive.",Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,zero_shot,1,Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,zero_shot,2,Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,zero_shot,3,Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,1,Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,2,Positive,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,few_shot,3,Positive,Positive
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,cot,1,Final: Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,cot,2,Final: Negative,Negative
+91,@KyraaVazquez u guys are together?? :(,Negative,clear,cot,3,Final: Negative,Negative
+92,Nice rainy walk to work. Stopped to look at rain on the river and saw a kingfisher :),Positive,clear,zero_shot,1,Positive,Positive
+92,Nice rainy walk to work. Stopped to look at rain on the river and saw a kingfisher :),Positive,clear,few_shot,1,Positive,Positive
+92,Nice rainy walk to work. Stopped to look at rain on the river and saw a kingfisher :),Positive,clear,cot,1,Final: Positive,Positive
+93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,Negative,clear,zero_shot,1,Negative,Negative
+93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,Negative,clear,few_shot,1,Negative,Negative
+93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,Negative,clear,cot,1,Final: Negative,Negative
+94,Went to bed with headache...woke up with headache :(,Negative,clear,zero_shot,1,Negative,Negative
+94,Went to bed with headache...woke up with headache :(,Negative,clear,few_shot,1,Negative,Negative
+94,Went to bed with headache...woke up with headache :(,Negative,clear,cot,1,Final: Negative,Negative
+95,"The instructions weren't unclear, they were just plain wrong.",Negative,ambiguous,zero_shot,1,Negative,Negative
+95,"The instructions weren't unclear, they were just plain wrong.",Negative,ambiguous,few_shot,1,Negative,Negative
+95,"The instructions weren't unclear, they were just plain wrong.",Negative,ambiguous,cot,1,Final: Negative,Negative
+96,@SpazzyTsukihara hehehehe thats the point :p,Positive,clear,zero_shot,1,Positive,Positive
+96,@SpazzyTsukihara hehehehe thats the point :p,Positive,clear,few_shot,1,Positive,Positive
+96,@SpazzyTsukihara hehehehe thats the point :p,Positive,clear,cot,1,Final: Negative,Negative
+97,"Never thought I'd say this, but I loved it.",Positive,ambiguous,zero_shot,1,Positive,Positive
+97,"Never thought I'd say this, but I loved it.",Positive,ambiguous,few_shot,1,Positive,Positive
+97,"Never thought I'd say this, but I loved it.",Positive,ambiguous,cot,1,Final: Positive,Positive
+98,"@rodtamepoet  ""Rod Tame is embracing his inner actor with aplomb"" :-) Congratulations mate",Positive,clear,zero_shot,1,Positive,Positive
+98,"@rodtamepoet  ""Rod Tame is embracing his inner actor with aplomb"" :-) Congratulations mate",Positive,clear,few_shot,1,Positive,Positive
+98,"@rodtamepoet  ""Rod Tame is embracing his inner actor with aplomb"" :-) Congratulations mate",Positive,clear,cot,1,Final: Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,zero_shot,1,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,zero_shot,2,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,zero_shot,3,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,1,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,2,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,few_shot,3,Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,cot,1,Final: Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,cot,2,Final: Positive,Positive
+99,@santhanaram You look like you are having lots of fun! We hope you had many good takeaways today :),Positive,clear,cot,3,Final: Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,zero_shot,1,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,zero_shot,2,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,zero_shot,3,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,1,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,2,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,few_shot,3,Positive,Positive
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,cot,1,Final: Negative,Negative
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,cot,2,Final: Negative,Negative
+100,Honestly didn't expect to enjoy it this much.,Positive,ambiguous,cot,3,Final: Positive,Positive
