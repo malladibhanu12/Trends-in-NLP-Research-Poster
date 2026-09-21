@@ -1,0 +1,4 @@
+id,text,gold_label,category,condition,run_number,raw_response,parsed_label
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,1,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,2,Neutral,Unclear
+2,Can't say I hate it -- it's actually pretty solid.,Positive,ambiguous,few_shot,3,Neutral,Unclear

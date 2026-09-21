@@ -1,0 +1,13 @@
+method,group,n,correct,accuracy_pct,macro_f1,invalid_count,invalid_pct
+VADER,Overall,100,75,75.0,0.742559983523839,0,0.0
+VADER,Sampled tweets,60,49,81.66666666666667,0.8141368628555337,0,0.0
+VADER,Curated challenge sentences,40,26,65.0,0.6266666666666667,0,0.0
+Zero-shot,Overall,100,88,88.0,0.88,0,0.0
+Zero-shot,Sampled tweets,60,54,90.0,0.8995535714285714,0,0.0
+Zero-shot,Curated challenge sentences,40,34,85.0,0.8484848484848485,0,0.0
+Few-shot,Overall,100,82,82.0,0.8239878542510122,1,1.0
+Few-shot,Sampled tweets,60,48,80.0,0.7997775305895439,0,0.0
+Few-shot,Curated challenge sentences,40,34,85.0,0.8610038610038611,1,2.5
+CoT,Overall,100,84,84.0,0.8368013055895553,0,0.0
+CoT,Sampled tweets,60,51,85.0,0.8465473145780051,0,0.0
+CoT,Curated challenge sentences,40,33,82.5,0.8222222222222222,0,0.0

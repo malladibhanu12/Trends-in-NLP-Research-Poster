@@ -1,0 +1,72 @@
+method,id,text,category,gold_label,prediction,raw_response
+VADER,3,@derekklahn You cant hold another week? September 21st. :-((,clear,Negative,Positive,
+VADER,4,"Oh great, another Monday, just what I needed.",ambiguous,Negative,Positive,
+VADER,6,"Nice, another 'brief' meeting that ran two hours over.",ambiguous,Negative,Positive,
+VADER,7,@WforWoman  9) shopping will be like fries without ketchup. Tasteless :(  #WSaleLove,clear,Negative,Positive,
+VADER,8,"Oh sure, because customer support has been SO responsive.",ambiguous,Negative,Positive,
+VADER,9,@Rinerh -hugs- I really wish I could love :( I miss you.,clear,Negative,Positive,
+VADER,16,"Wow, my flight got delayed again, love that for me.",ambiguous,Negative,Positive,
+VADER,19,Love how the update broke the one feature I actually used.,ambiguous,Negative,Positive,
+VADER,25,@my_nameis_dan Download only isn't it? :(,clear,Negative,Positive,
+VADER,29,"Fantastic, the app crashed again right before the deadline.",ambiguous,Negative,Positive,
+VADER,32,"Great, now the wifi is down too. Perfect timing.",ambiguous,Negative,Positive,
+VADER,33,"It's not perfect, but I really can't find much to complain about.",ambiguous,Positive,Negative,
+VADER,44,wonho reminds me of someone &gt;:( i just cant put my finger to it,clear,Negative,Positive,
+VADER,50,The service was far from disappointing.,ambiguous,Positive,Negative,
+VADER,52,Stats for the day have arrived. 1 new follower and NO unfollowers :) via http://t.co/lrUwXe378i.,clear,Positive,Negative,
+VADER,54,Stats for the day have arrived. 2 new followers and NO unfollowers :) via http://t.co/xxlXs6xYwe.,clear,Positive,Negative,
+VADER,57,This is not the disaster I feared -- it's a bigger one.,ambiguous,Negative,Positive,
+VADER,64,I'm sure the extra fees were 'totally worth it'.,ambiguous,Negative,Positive,
+VADER,71,NO STOP I CANT GO :( :( :(  https://t.co/JLrt1bEIrY,clear,Negative,Positive,
+VADER,72,Its 5am &amp; I haven't slept :(,clear,Negative,Positive,
+VADER,75,"Sure, take your time, it's not like I have anywhere to be.",ambiguous,Negative,Positive,
+VADER,86,"Yeah, because waiting three hours on hold is such a treat.",ambiguous,Negative,Positive,
+VADER,88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",clear,Negative,Positive,
+VADER,90,This is exactly the kind of 'quality' I expected.,ambiguous,Negative,Positive,
+VADER,93,Thankyou sa treat kanina and sorry sa breakdown bc of Sir Mags :(( @ZAIRERR,clear,Negative,Positive,
+Zero-shot,8,"Oh sure, because customer support has been SO responsive.",ambiguous,Negative,Positive,Positive
+Zero-shot,15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),clear,Positive,Negative,Negative
+Zero-shot,18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,clear,Positive,Negative,Negative
+Zero-shot,19,Love how the update broke the one feature I actually used.,ambiguous,Negative,Positive,Positive
+Zero-shot,20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,clear,Negative,Positive,Positive
+Zero-shot,37,"Not gonna lie, this slaps.",ambiguous,Positive,Negative,Negative
+Zero-shot,41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",clear,Positive,Negative,Negative
+Zero-shot,64,I'm sure the extra fees were 'totally worth it'.,ambiguous,Negative,Positive,Positive
+Zero-shot,66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",clear,Positive,Negative,Negative
+Zero-shot,75,"Sure, take your time, it's not like I have anywhere to be.",ambiguous,Negative,Positive,Positive
+Zero-shot,81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),clear,Positive,Negative,Negative
+Zero-shot,90,This is exactly the kind of 'quality' I expected.,ambiguous,Negative,Positive,Positive
+Few-shot,2,Can't say I hate it -- it's actually pretty solid.,ambiguous,Positive,Unclear,Neutral
+Few-shot,8,"Oh sure, because customer support has been SO responsive.",ambiguous,Negative,Positive,Positive
+Few-shot,9,@Rinerh -hugs- I really wish I could love :( I miss you.,clear,Negative,Positive,Positive
+Few-shot,15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),clear,Positive,Negative,Negative
+Few-shot,18,@EvaSpying My inner nerd shall not be tamed by your insidious logic. :D http://t.co/iS8BxMseYj,clear,Positive,Negative,Negative
+Few-shot,20,@ellegowers ahaha I'm laying on my bed like WHYYYYYY. The pretty wine glasses sucked me in :(,clear,Negative,Positive,Positive
+Few-shot,30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,clear,Positive,Negative,Negative
+Few-shot,37,"Not gonna lie, this slaps.",ambiguous,Positive,Negative,Negative
+Few-shot,41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",clear,Positive,Negative,Negative
+Few-shot,42,@mrandmrsMCT no way I missed it too :(,clear,Negative,Positive,Positive
+Few-shot,60,@HiddlesSupport So much :(,clear,Negative,Positive,Positive
+Few-shot,64,I'm sure the extra fees were 'totally worth it'.,ambiguous,Negative,Positive,Positive
+Few-shot,74,@TimInTraining @chris_slight78 @ThermoGrenade @rossario @anj100 its #CheatDay and I've ran out of protein :(,clear,Negative,Positive,Positive
+Few-shot,75,"Sure, take your time, it's not like I have anywhere to be.",ambiguous,Negative,Positive,Positive
+Few-shot,81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),clear,Positive,Negative,Negative
+Few-shot,88,"@kendrahatesu FOLLOWED ME THANKS, AND @justinbieber PLEASE FOLLOWED ME TOO :(",clear,Negative,Positive,Positive
+Few-shot,90,This is exactly the kind of 'quality' I expected.,ambiguous,Negative,Positive,Positive
+Few-shot,91,@KyraaVazquez u guys are together?? :(,clear,Negative,Positive,Positive
+CoT,2,Can't say I hate it -- it's actually pretty solid.,ambiguous,Positive,Negative,Final: Negative
+CoT,10,I don't think this could have gone any better.,ambiguous,Positive,Negative,Final: Negative
+CoT,15,@vespera9 @moirae_ @nbhdmadi @akpayne15 @caitiiiii @tiffanymichels  I spent a half hour total on this.:-),clear,Positive,Negative,"Final: Negative |  | Explanation: | 1. The text contains no explicitly positive or negative emotional words or phrases. | 2. There are no negations that would alter the overall sentiment significantly. | 3. There is one sarcastic element, but it's not strong enough to impact the overall sentiment judgment. | 4. Despite the use of "":-)"", which might be a sign of sarcasm, the text itself does not convey any negative emotions. |  | The context and tone appear neutral, focusing on an activity that lasted half an hour without expressing any positive or negative feelings about the experience."
+CoT,19,Love how the update broke the one feature I actually used.,ambiguous,Negative,Positive,Final: Positive
+CoT,24,@IrlyanaVL mind to follow back? :),clear,Positive,Negative,Final: Negative
+CoT,30,@MahamK97   I was just tired yesterday   Choroo ga nahi us ko :D,clear,Positive,Negative,"Final: Negative |  | Reasoning: | 1. The text contains the phrase ""Choroo ga nahi"" which translates to ""Don't you think"" in English. | 2. While this phrase is not inherently negative, it could be interpreted negatively if paired with another statement expressing tiredness or dissatisfaction about a previous experience involving someone named ""us"". | 3. Given that the context of tiredness and possibly a frustrated tone (implied by the use of sarcasm) seems to dominate in this text. | 4. The overall sentiment is one of resignation and mild frustration, leaning towards negativity rather than positivity."
+CoT,34,"I'm not even mad, this turned out better than planned.",ambiguous,Positive,Negative,Final: Negative
+CoT,35,"Oven roasted garlic in olive oil, sun dried tomatoes, some dried basil, and century tuna :) https://t.co/EsCc9QhLob",clear,Positive,Negative,Final: Negative
+CoT,37,"Not gonna lie, this slaps.",ambiguous,Positive,Negative,Final: Negative
+CoT,41,"@SachinKalbag Ah Sachin, why do you bring up unimportant stuff like context and dampen @saliltripathi 's excitement! :-)",clear,Positive,Negative,Final: Negative
+CoT,51,Who knew something so cheap could be this good.,ambiguous,Positive,Negative,Final: Negative
+CoT,66,"Whatsapp with roommate  ""Do you want anything from Paris?"" ""A French man :)""  LOL sure I'll just head to the park and grab one.",clear,Positive,Negative,Final: Negative
+CoT,78,@chelsea_acker WHOOP WHOOP! :-) #quacketyquack http://t.co/Or9w6eqCiM,clear,Positive,Negative,"Final: Negative |  | **Reasoning:** |  | 1. **Identify emotional or evaluative words/phrases**: The text contains emojis (""WHOOP WHOOP!"") which are typically used to express excitement, joy, or enthusiasm. | 2. **Check for negation**: There is no explicit use of negation in the text that would change the meaning into a negative sentiment. | 3. **Check for sarcasm or irony**: The phrase ""WHOOP WHOOP!"" with an exclamation mark and smiley face indicates excitement and happiness rather than sarcasm or irony. | 4. **Combine these observations into an overall sentiment judgment**: |    - While the text uses positive emojis, it lacks any negative elements that would negate this positivity. The combination of emojis does not change their intended meaning from joyous to negative. |  | Given these points, the overall sentiment is positive but slightly casual and excited through the use of smiley faces rather than explicit negation or sarcasm."
+CoT,81,@candinam Gals also bend down in one knees to put a men down and bend down in two knees to pleasure a men up to the heaven :),clear,Positive,Negative,Final: Negative
+CoT,96,@SpazzyTsukihara hehehehe thats the point :p,clear,Positive,Negative,Final: Negative
+CoT,100,Honestly didn't expect to enjoy it this much.,ambiguous,Positive,Negative,Final: Negative

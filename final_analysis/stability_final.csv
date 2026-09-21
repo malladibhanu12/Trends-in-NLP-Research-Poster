@@ -1,0 +1,4 @@
+method,sentences,sentences_with_label_changes,instability_pct,sentences_with_any_invalid
+Zero-shot,30,0,0.0,0
+Few-shot,30,0,0.0,1
+CoT,30,5,16.666666666666668,0
