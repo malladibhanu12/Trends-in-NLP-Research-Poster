@@ -3,14 +3,10 @@ Thin wrapper around the local Ollama API for calling qwen2.5:1.5b.
 Includes a timeout and retry so a single slow/stuck call doesn't kill the
 whole batch run.
 """
-
 import requests
 import time
-
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "qwen2.5:1.5b"
-
-
 def call_llm(prompt: str, temperature: float = 0.7, timeout: int = 60, max_retries: int = 2) -> str:
     """
     Sends a prompt to the local Ollama model and returns the raw text response.
