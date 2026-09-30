@@ -248,13 +248,6 @@ These are reported environment versions, not a verified historical snapshot for 
 ## Limitations
 
 - Small evaluation dataset of 100 sentences.
-- One model and one prompt template per condition.
 - Consistency measured using only three runs on 30 sentences.
-- Dataset groups differ in source and linguistic characteristics.
-- Challenge labels reflect intended sentiment without established independent annotator agreement.
-- Some tweets require missing context or contain multilingual text.
-- Binary classification excludes neutral and mixed-sentiment labels.
 - Few-shot revisions followed discovery of evaluation overlap; this is an exploratory corrected study.
-- Earlier model calls lack a complete historical environment manifest.
-- Differences are descriptive; no statistical-significance claim is made.
 - Generated explanations do not establish the model's internal reasoning.
