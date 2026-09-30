@@ -10,9 +10,7 @@ The parser uses the last explicit final-label line when present.
 Otherwise, it accepts only a standalone sentiment label.
 Invalid or neutral responses are returned as 'Unclear'.
 """
-
 import re
-
 
 def zero_shot_prompt(text: str) -> str:
     """Build the zero-shot classification prompt."""
